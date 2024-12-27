@@ -46,7 +46,12 @@ public class StaticWord {
         // obj2.show();
 
         // Mobile.show1(obj1);
+        try {
 
-        Class.forName("Mobile");
+            Class.forName("Mobile");
+        } catch (Exception e) {
+
+        }
+
     }
 }
